@@ -19,7 +19,7 @@ export const SidebarMenuItem = ({ path, icon, title, subTitle }: Props) => {
     <Link
       href={path}
       className={`
-        w-full px-2 inline-flex space-x-2 items-center border-b border-slate-700 py-3 hover:bg-white/5 transition ease-linear duration-150 rounded-md 
+        px-2 inline-flex space-x-2 items-center border-b border-slate-700 py-3 hover:bg-white/5 transition ease-linear duration-150 rounded-xs 
         ${pathName === path && style["active-link"]}
       `}
     >
