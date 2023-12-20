@@ -1,0 +1,3 @@
+.active-link {
+    @apply bg-blue-800 hover:bg-blue-700 transition-all
+}
